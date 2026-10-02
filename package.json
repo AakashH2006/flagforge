@@ -1,0 +1,26 @@
+{
+  "name": "ctf-builder",
+  "private": true,
+  "description": "A platform for creating and hosting Capture The Flag events",
+  "workspaces": [
+    "server",
+    "client-participant",
+    "client-admin"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w server",
+    "dev:participant": "npm run dev -w client-participant",
+    "dev:admin": "npm run dev -w client-admin",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces",
+    "test": "npm test -w server",
+    "services:up": "docker compose up -d --wait",
+    "services:down": "docker compose down",
+    "db:migrate": "npm run db:migrate -w server",
+    "db:seed": "npm run db:seed -w server",
+    "load": "node load/run.mjs"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}

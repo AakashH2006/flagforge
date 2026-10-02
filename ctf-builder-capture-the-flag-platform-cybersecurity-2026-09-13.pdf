@@ -1,0 +1,1235 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 594
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 22 Tf
+25.2999999999999972 TL
+0.071 0.094 0.149 rg
+45.354330708661422 779.5277952755905062 Td
+(Project Export) Tj
+ET
+BT
+/F1 11 Tf
+12.6499999999999986 TL
+0.29 0.333 0.408 rg
+45.354330708661422 751.1813385826771992 Td
+(Domain: Cybersecurity Export: Single project Projects: 1 Generated: 9/13/2026, 11:42:13 AM) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+45.354330708661422 25.5118110236220446 Td
+(Persevex Project Dashboard) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+509.2856692913384791 25.5118110236220446 Td
+(Page 1 of 4) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6184
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.071 0.094 0.149 rg
+45.354330708661422 785.1970866141732586 Td
+(1. CTF-Builder - A Platform for Creating Capture The Flag Events) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.392 0.455 0.545 rg
+45.354330708661422 749.7640157480315111 Td
+(Domain: Cybersecurity Slug: ctf-builder-capture-the-flag-platform Created: 1/13/2026) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.055 0.341 0.267 rg
+45.354330708661422 720.0002362204724022 Td
+(Summary) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 702.9923622047243725 Td
+(CTF-Builder is a specialized SaaS platform enabling users to host their own cybersecurity competitions. This) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 688.2522047244094665 Td
+(project involves building a real-time scoring engine using WebSockets, a challenge management CMS, and a) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 673.5120472440944468 Td
+(robust flag validation system.) Tj
+ET
+BT
+/F2 11 Tf
+12.6499999999999986 TL
+0.055 0.341 0.267 rg
+45.354330708661422 643.1813385826770855 Td
+(Full Content) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.071 0.094 0.149 rg
+45.354330708661422 617.6695275590550409 Td
+(Project Overview) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 585.6380314960629221 Td
+(Case Study: CTF-Builder) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 551.9057480314959321 Td
+(Capture The Flag \(CTF\) competitions are the standard for training and recruiting cybersecurity talent. However,) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 536.5986614173227736 Td
+(setting up the infrastructure—provisioning servers, managing user accounts, and building a real-time) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 521.2915748031495013 Td
+(scoreboard—is a logistical nightmare. Often, the organizers spend more time fixing the platform than designing the) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 505.9844881889762291 Td
+(hacking challenges.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 472.252204724409296 Td
+("CTF-Builder" democratizes this process. It is a SaaS platform where anyone \(university professors, team leads, or) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 456.9451181102360806 Td
+(hiring managers\) can spin up a hosted CTF event in minutes.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 423.2128346456690906 Td
+(As a Full Stack Security Engineer Intern, you will build a platform that serves two distinct masters: the Organizer) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 407.9057480314958752 Td
+(\(who needs a CMS to manage content\) and the Hacker \(who needs a responsive interface to solve challenges\).) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 392.598661417322603 Td
+(The core technical challenge is State Management: managing the game state \(scores, unlocks, first-blood) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 377.2915748031493877 Td
+(achievements\) in real-time for hundreds of concurrent users.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 343.5592913385823977 Td
+(---) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.071 0.094 0.149 rg
+45.354330708661422 301.3230708661415065 Td
+(Key Objectives & Technical Architecture) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.071 0.094 0.149 rg
+45.354330708661422 260.7876377952752591 Td
+(Phase 1: Challenge Logic & Database) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 233.0081102362200909 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 233.0081102362200909 Td
+(Data Models: You need a robust relational schema \(using PostgreSQL\).) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 214.8663779527556699 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 214.8663779527556699 Td
+(Event: Name, StartTime, EndTime.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 196.7246456692911352 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 196.7246456692911352 Td
+(Challenge: Title, Description, Category \(Web, Crypto, Pwn\), Points, The Flag \(hashed or plaintext\).) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 178.5829133858266005 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 178.5829133858266005 Td
+(Submission: Linked to User/Team + Challenge. Must record the timestamp.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 160.4411811023620658 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 160.4411811023620658 Td
+(Flag Validation: The core mechanic.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 142.2994488188976447 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 142.2994488188976447 Td
+(Logic: User inputs CTF{s3cr3t_fl4g} $) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 124.15771653543311 Td
+(ightarrow$ Backend compares hash $ ightarrow$ If correct, award points.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 94.6774015748031843 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 94.6774015748031843 Td
+(Anti-Brute Force: Implement Rate Limiting \(using Redis\) to prevent users from scripting a dictionary) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 79.9372440944882783 Td
+(attack against the flag submission endpoint.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+45.354330708661422 25.5118110236220446 Td
+(Persevex Project Dashboard) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+509.2856692913384791 25.5118110236220446 Td
+(Page 2 of 4) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 7145
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.071 0.094 0.149 rg
+45.354330708661422 785.1970866141732586 Td
+(Phase 2: The Organizer Dashboard \(Admin\)) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 757.4175590551180903 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 757.4175590551180903 Td
+(Event Wizard: A multi-step form to configure the event branding and duration.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 739.2758267716535556 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 739.2758267716535556 Td
+(Challenge Editor: A CMS interface.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 721.1340944881889072 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 721.1340944881889072 Td
+(Features: Markdown support for descriptions. File uploads \(providing the "pcap" or "binary" files for) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 706.3939370078740012 Td
+(download\). Dynamic flag generation.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.071 0.094 0.149 rg
+45.354330708661422 675.4962992125983874 Td
+(Phase 3: The Real-Time Scoreboard) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 647.7167716535432191 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 647.7167716535432191 Td
+(The Architecture: In the final minutes of a CTF, the scoreboard is hit aggressively. Querying) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 632.9766141732281994 Td
+(Postgres every time is too slow.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 614.8348818897636647 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 614.8348818897636647 Td
+(Solution: Use Redis Sorted Sets to maintain the leaderboard in memory.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 596.69314960629913 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 596.69314960629913 Td
+(WebSockets: Integrate Socket.io.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 578.5514173228344816 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 578.5514173228344816 Td
+(Flow: User submits flag $) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 560.4096850393699469 Td
+(ightarrow$ Server validates $ ightarrow$ Server updates Redis $ ightarrow$ Server emits) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 545.1025984251966747 Td
+(UPDATE_SCOREBOARD event $ ightarrow$ All connected clients update their UI instantly without refreshing.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.071 0.094 0.149 rg
+45.354330708661422 502.8663779527557267 Td
+(Phase 4: Team Management & Access Control) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 475.0868503937006153 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 475.0868503937006153 Td
+(Team Mode: CTFs are often played in teams.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 456.9451181102361375 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 456.9451181102361375 Td
+(Logic: If Player A solves a challenge, Player B \(on the same team\) sees it as solved, and the team) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 442.2049606299212314 Td
+(gets the points. This requires complex database joins.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 424.0632283464566967 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 424.0632283464566967 Td
+(Access Control: Ensure that participants cannot access the Admin API routes to peek at the flags before the) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 409.3230708661417907 Td
+(event starts.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 386.9293700787402486 Td
+(---) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.071 0.094 0.149 rg
+45.354330708661422 344.6931496062993006 Td
+(Prerequisites) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 312.6616535433071249 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 312.6616535433071249 Td
+(Languages: JavaScript/TypeScript.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 294.5199212598425902 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 294.5199212598425902 Td
+(Frontend: React.js.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 276.3781889763781692 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 276.3781889763781692 Td
+(Backend: Node.js.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 258.2364566929136345 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 258.2364566929136345 Td
+(Database: PostgreSQL \(Core Data\), Redis \(Leaderboard/Caching\).) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 240.0947244094490998 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 240.0947244094490998 Td
+(Real-Time: Socket.io/WebSockets.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 217.7010236220476145 Td
+(---) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.071 0.094 0.149 rg
+45.354330708661422 175.4648031496066096 Td
+(Deliverables) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 143.4333070866144908 Td
+(1. The GitHub Repository) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 113.9529921259845651 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 113.9529921259845651 Td
+(Monorepo Structure: Separate folders for client-admin, client-participant, and server.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 95.811259842520144 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 95.811259842520144 Td
+(Seed Script: A script that populates the database with a "Demo Event" containing 5 challenges \(Web,) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 81.0711023622051243 Td
+(Crypto, Forensics\).) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+45.354330708661422 25.5118110236220446 Td
+(Persevex Project Dashboard) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+509.2856692913384791 25.5118110236220446 Td
+(Page 3 of 4) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5380
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 785.1970866141732586 Td
+(2. The Live Application) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 755.7167716535433328 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 755.7167716535433328 Td
+(Deployed and playable.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 737.5750393700786844 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 737.5750393700786844 Td
+(Demo Accounts: Provide credentials for an "Admin" and a "Player" in the README.) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 715.1813385826770855 Td
+(3. Game Logic Documentation) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 685.7010236220471597 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 685.7010236220471597 Td
+(Explain your scoring formula \(e.g., "We use dynamic scoring: the more people solve a challenge, the) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 670.9608661417322537 Td
+(fewer points it is worth"\).) Tj
+ET
+BT
+/F1 10 Tf
+11.5 TL
+0.141 0.165 0.22 rg
+45.354330708661422 648.5671653543306547 Td
+(---) Tj
+ET
+BT
+/F2 12 Tf
+13.7999999999999989 TL
+0.071 0.094 0.149 rg
+45.354330708661422 606.3309448818896499 Td
+(Project Timeline & Deadlines) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 574.2994488188975311 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 574.2994488188975311 Td
+(Week 1: Core Engine) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 556.1577165354328827 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 556.1577165354328827 Td
+(Goal: The Rules.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 538.015984251968348 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 538.015984251968348 Td
+(Tasks: Schema Design. User/Team Auth. Challenge CRUD \(Admin side\). Flag Validation endpoint.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 515.622283464566749 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 515.622283464566749 Td
+(Week 2: The Player Interface) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 497.4805511811022143 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 497.4805511811022143 Td
+(Goal: Interaction.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 479.3388188976376227 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 479.3388188976376227 Td
+(Tasks: Build the Challenge List UI \(filter by category\). Build the Submission input. Handle) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 464.5986614173226599 Td
+("Correct/Incorrect" feedback states.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 442.2049606299211177 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 442.2049606299211177 Td
+(Week 3: The Scoreboard \(Real-Time\)) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 424.0632283464566399 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 424.0632283464566399 Td
+(Goal: Competition.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 405.9214960629921052 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 405.9214960629921052 Td
+(Tasks: Set up Redis. Implement the Socket.io server. Build the animated Scoreboard graph \(e.g.,) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 391.1813385826771992 Td
+(lines showing rank over time\).) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+59.5275590551181182 368.787637795275657 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+82.2047244094488292 368.787637795275657 Td
+(Week 4: Polish & Deployment) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 350.6459055118111792 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 350.6459055118111792 Td
+(Goal: Launch.) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+87.8740157480315105 332.5041732283466445 Td
+(-) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 332.5041732283466445 Td
+(Tasks: Implement Team Logic \(shared solves\). Add File Uploads for challenge attachments. Final) Tj
+ET
+BT
+/F1 9.8 Tf
+11.2699999999999996 TL
+0.141 0.165 0.22 rg
+110.5511811023622215 317.7640157480317384 Td
+(Deployment and Load Testing.) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+45.354330708661422 25.5118110236220446 Td
+(Persevex Project Dashboard) Tj
+ET
+BT
+/F1 8 Tf
+9.1999999999999993 TL
+0.58 0.639 0.722 rg
+509.2856692913384791 25.5118110236220446 Td
+(Page 4 of 4) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+/F7 17 0 R
+/F8 18 0 R
+/F9 19 0 R
+/F10 20 0 R
+/F11 21 0 R
+/F12 22 0 R
+/F13 23 0 R
+/F14 24 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+25 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20260913114213+05'30')
+>>
+endobj
+26 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000020075 00000 n 
+0000021915 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000000797 00000 n 
+0000000934 00000 n 
+0000007170 00000 n 
+0000007307 00000 n 
+0000014504 00000 n 
+0000014642 00000 n 
+0000020150 00000 n 
+0000020276 00000 n 
+0000020407 00000 n 
+0000020541 00000 n 
+0000020679 00000 n 
+0000020803 00000 n 
+0000020932 00000 n 
+0000021064 00000 n 
+0000021200 00000 n 
+0000021328 00000 n 
+0000021455 00000 n 
+0000021584 00000 n 
+0000021717 00000 n 
+0000021819 00000 n 
+0000022168 00000 n 
+0000022254 00000 n 
+trailer
+<<
+/Size 27
+/Root 26 0 R
+/Info 25 0 R
+/ID [ <547B09E1E6C6EBBD99108BEC4CF2A878> <547B09E1E6C6EBBD99108BEC4CF2A878> ]
+>>
+startxref
+22358
+%%EOF

@@ -1,0 +1,88 @@
+# The whole platform, built from source and wired together.
+#
+#   cp .env.prod.example .env.prod   # then put real secrets in it
+#   docker compose -f docker-compose.prod.yml --env-file .env.prod up -d --build
+#   docker compose -f docker-compose.prod.yml --env-file .env.prod run --rm api node server/dist/db/migrate.js
+#
+# Players land on :8080 and organizers on :8081. Neither client needs VITE_API_URL: nginx proxies
+# /api to the API from the same origin, so there is no CORS to configure either.
+
+# Its own project name, so a production stack and the development one in docker-compose.yml can
+# sit side by side without replacing each other's containers.
+name: flagforge
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: ctf
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+      POSTGRES_DB: ctf
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ctf -d ctf"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    # The leaderboard cache can always be rebuilt from Postgres, so Redis keeps nothing on disk.
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      DATABASE_URL: postgres://ctf:${POSTGRES_PASSWORD}@postgres:5432/ctf
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET}
+      FLAG_SECRET: ${FLAG_SECRET:?set FLAG_SECRET}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:8080,http://localhost:8081}
+      # nginx sits in front, so req.ip comes from X-Forwarded-For.
+      TRUST_PROXY: "true"
+      UPLOAD_DIR: /data/uploads
+    volumes:
+      - uploads:/data/uploads
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+    restart: unless-stopped
+
+  web-participant:
+    build:
+      context: .
+      dockerfile: client-participant/Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  web-admin:
+    build:
+      context: .
+      dockerfile: client-admin/Dockerfile
+      args:
+        # The dashboard links out to the player site's public scoreboard.
+        VITE_PARTICIPANT_URL: ${PARTICIPANT_URL:-http://localhost:8080}
+    ports:
+      - "8081:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  uploads:

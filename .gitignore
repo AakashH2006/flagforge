@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.prod
+*.log
+coverage/
+server/uploads/
+server/test/.uploads/
+
+# Built from the deck and the source tree; regenerate rather than track it.
+FlagForge-Submission.zip
